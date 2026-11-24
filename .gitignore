@@ -1,0 +1,12 @@
+# Dữ liệu học cá nhân của người dùng: không bao giờ đưa lên GitHub
+/hoc-cua-toi/
+
+# Máy
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+node_modules/
+
+# Mã app Google của dự án: chưa đưa lên GitHub khi chủ chưa quyết (xem docs/google-lich.md)
+/app/google-app.json

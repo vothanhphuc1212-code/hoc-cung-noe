@@ -1,0 +1,16 @@
+{
+  "name": "Học cùng Noe",
+  "short_name": "Noe",
+  "description": "Học mọi thứ cùng AI, có Noe đi cùng mỗi ngày.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFC83D",
+  "theme_color": "#14213D",
+  "lang": "vi",
+  "icons": [
+    { "src": "noe-icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "noe-icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "noe-icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "noe-icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

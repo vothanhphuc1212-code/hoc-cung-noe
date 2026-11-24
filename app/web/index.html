@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Học cùng Noe</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="noe-icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="noe-icon-180.png">
+<meta name="theme-color" content="#14213D">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Noe">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>
+  // Đặt nền trắng / nền đen người học đã chọn ngay từ đầu, để trang không chớp màu khi mở
+  try { const g = localStorage.getItem('noe_giao_dien'); if (g === 'trang' || g === 'den') document.documentElement.dataset.giaoDien = g; } catch (e) { /* trình duyệt chặn lưu: theo máy */ }
+</script>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="dot"></span><b>Học cùng Noe</b></div>
+  <div class="top-phai"><ol class="steps" id="steps" aria-label="Các chặng"></ol><span id="gdKhung"></span><span id="nnKhung"></span></div>
+</header>
+<nav class="dieu-huong" id="dieuHuong" aria-label="Điều hướng" hidden>
+  <button type="button" id="nutQuayLai" class="nho">← Quay lại</button>
+  <button type="button" id="nutTrangChinh" class="nho">🏠 Trang chính</button>
+</nav>
+<main id="man" class="man"></main>
+<div id="hop" class="hop" hidden></div>
+<script src="dich-en.js"></script>
+<script src="dich.js"></script>
+<script src="noe.js"></script>
+<script src="app.js"></script>
+<script src="chat-luong.js"></script>
+</body>
+</html>

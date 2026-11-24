@@ -1,0 +1,5 @@
+{
+  "_ghi_chu": "Mẫu. Người làm gói chép file này thành google-app.json và điền mã app Google loại Desktop app của dự án. Có file này thì học viên chỉ cần bấm Nối Google Lịch. Xem docs/google-lich.md.",
+  "client_id": "....apps.googleusercontent.com",
+  "client_secret": ""
+}
